@@ -1,5 +1,7 @@
 l = []
-for i in range (0,5,1):
+a = 0
+while a < 5:
     print('enter unique fruit name')
-    l+= str(input())
+    fruit = str(input())
+    l = l + [fruit]
 print(l)
