@@ -1,6 +1,6 @@
-message = 'It was a bright cold day in April, and the clocks were striking thirteen.'
-count = {}
-for character in message:
-    count.setdefault(character, 0)
-    count[character] = count[character] + 1
-print(count)
+def addToInventory(inventory, addedItems):
+# your code goes here
+inv = {'gold coin': 42, 'rope': 1}
+dragonLoot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
+inv = addToInventory(inv, dragonLoot)
+displayInventory(inv)
